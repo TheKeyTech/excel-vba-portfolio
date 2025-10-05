@@ -17,3 +17,10 @@ No company-specific or confidential information is included.
 ---
 
 ## 📁 フォルダ構成 / Folder Structure
+excel-vba-portfolio/
+├─ README.md
+├─ ピボットテーブル作成サンプル.xlsm ← 実行用ブック（ボタン付き）
+├─ ポータブル版_ピボット作成.bas ← VBAモジュール（標準モジュールにインポート可）
+├─ data/
+│ └─ sales_data.csv ← サンプルCSV（Product, Month, Sales）
+└─ output/ ← 出力先（自動生成）
